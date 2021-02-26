@@ -11,8 +11,8 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
-    
-
+    console.log(string.length)
+length('hello')
     // YOUR CODE ABOVE HERE //
 }
 
@@ -21,21 +21,22 @@ function length(string) {
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
- 
+       
+     console.log(string.toLowerCase())
 
     // YOUR CODE ABOVE HERE //
 }
-
+toLowerCase("NNNNNN")
 /**
  * Given an input String, return a new String forced to uppercase.
  */
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
-
+   console.log(string.toUpperCase())
 
     // YOUR CODE ABOVE HERE //
 }
-
+toUpperCase("idk")
 /**
  * Given an input String, return a new String forced to dash-case.
  *
@@ -51,11 +52,10 @@ function toUpperCase(string) {
  */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-
-       
+       console.log(string.replace(/ /g, "-"))    
     // YOUR CODE ABOVE HERE //
 }
-
+toDashCase("I Like taco   ")
 /**
  * Given an input String and a single character, return true if the String
  * begins with the character, false otherwise. The Function is case insensitive.
@@ -71,7 +71,7 @@ function toDashCase(string) {
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
        
-       
+       console.log(beginsWith())
     // YOUR CODE ABOVE HERE //
 }
 
@@ -89,7 +89,7 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-        
+        console.log(endsWith())
 
     // YOUR CODE ABOVE HERE //
 }
@@ -101,7 +101,7 @@ function endsWith(string, char) {
  */
 function concat(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+    console.log(concat.join())
 
     // YOUR CODE ABOVE HERE //
 }
@@ -119,7 +119,7 @@ function concat(stringOne, stringTwo) {
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     
-   
+   console.log(longest.length)
     // YOUR CODE ABOVE HERE //
 }
 
@@ -132,7 +132,8 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+  
+   console.log(sortAscending())
 
     // YOUR CODE ABOVE HERE //
 }
@@ -147,7 +148,7 @@ function sortAscending(stringOne, stringTwo) {
  */
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+console.log(sortDescencing())
 
     // YOUR CODE ABOVE HERE //
 }
